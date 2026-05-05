@@ -22,6 +22,30 @@ The chatbot can answer questions such as:
 
 The system is designed to answer from database records instead of giving general medical advice.
 
+## Dataset
+
+The patient dataset was taken from Kaggle in CSV format and then imported into MongoDB for querying through the chatbot.
+
+The MongoDB patient records contain 17 columns:
+
+- `patient_id`
+- `admission_date`
+- `season`
+- `age`
+- `gender`
+- `region`
+- `primary_diagnosis`
+- `comorbidities_count`
+- `length_of_stay`
+- `treatment_type`
+- `medications_count`
+- `followup_visits_last_year`
+- `prev_readmissions`
+- `insurance_type`
+- `discharge_disposition`
+- `readmission_risk_score`
+- `label`
+
 ## Tech Stack
 
 - **Frontend:** Streamlit
