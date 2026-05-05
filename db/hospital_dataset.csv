@@ -1,0 +1,17 @@
+gender,(All)
+region,(All)
+age,(All)
+,
+Row Labels,Count of patient_id
+Appendicitis,534
+COPD,952
+Diabetes,1470
+Fracture,434
+Heart Failure,403
+Hypertension,1301
+Influenza,233
+Kidney Disease,868
+Pneumonia,425
+Sepsis,497
+Stroke,883
+Grand Total,8000
